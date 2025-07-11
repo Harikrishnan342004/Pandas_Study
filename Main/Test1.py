@@ -1,4 +1,6 @@
-import pandas as pd 
+import pandas as pa
 
-df = pd.read_csv('Data/data.csv')
-print(df.to_string())
+reading_variable = pa.read_csv('Data/data.csv')
+print(reading_variable.to_string())
+
+print(pa.__version__ )  
