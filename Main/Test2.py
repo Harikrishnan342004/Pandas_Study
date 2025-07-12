@@ -6,4 +6,6 @@ mydataset = {
 }
 type(mydataset)
 var = pd.DataFrame(mydataset)
+print(var.loc[0])
+print(var.loc[[0,1]])
 print(var)
